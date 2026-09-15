@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/output.css" />
+  </head>
+  <body>
+    <!-- #region wrapper-->
+    <div class="w-full">
+      <!-- #region menu-->
+      <div
+        class="desktop:max-w-450 desktop:mx-auto desktop:gap-y-0 desktop:px-15 desktop:h-16.25 flex flex-wrap desktop:flex-row desktop:justify-between desktop:mb-0 mobile:h-auto mobile:flex-row mobile:gap-y-5 mobile:relative mobile:mb-4 watch:h-auto watch:flex-col items-center watch:pt-1.5 watch:mb-2"
+      >
+        <div
+          class="flex desktop:items-center justify-center desktop:w-fit mobile:w-fit mobile:pt-2 desktop:pb-3 mobile:pr-2 watch:w-fit watch:flex-col watch:flex-wrap"
+        >
+          <img src="./src/img/header/logo-text.png" alt="" />
+        </div>
+        <div
+          class="flex desktop:flex-row desktop:items-center desktop:w-fit mobile:flex-row mobile:justify-center mobile:gap-x-5 watch:w-full watch:flex-col watch:items-center"
+        >
+          <div>
+            <a
+              class="font-sans text-[3D3D3D] mobile:font-bold text-[14px]"
+              href="./woman.html"
+              >زنانه</a
+            >
+          </div>
+          <div>
+            <a
+              class="font-sans text-[3D3D3D] mobile:font-bold text-[14px]"
+              href="#"
+              >مردانه</a
+            >
+          </div>
+          <div>
+            <a
+              class="font-sans text-[3D3D3D] mobile:font-bold text-[14px]"
+              href="#"
+              >درباره ما</a
+            >
+          </div>
+          <div>
+            <a
+              class="font-sans text-[3D3D3D] mobile:font-bold text-[14px]"
+              href="#"
+            >
+              تماس باما</a
+            >
+          </div>
+        </div>
+        <div
+          class="flex flex-wrap flex-row items-center desktop:static mobile:gap-x-5 mobile:absolute mobile:left-4 mobile:top-5 watch:gap-x-8"
+        >
+          <div><img src="./src/img/header/Search.png" alt="" /></div>
+          <div class="relative">
+            <label for="user" class="cursor-pointer"
+              ><img src="./src/img/header/user-alt.png" alt=""
+            /></label>
+            <input type="radio" name="user" id="user" />
+            <input type="radio" name="user" id="close" />
+            <div class="user relative p-4">
+              <label
+                class="block text-center desktop:w-10 desktop:h-10 desktop:leading-10 desktop:text-[30px] mobile:w-8 mobile:h-8 mobile:text-[30px] mobile:leading-8 watch:w-6 watch:h-6 watch:text-[20px] watch:leading-6 absolute"
+                for="close"
+                >&times;</label
+              >
+
+              <div class="w-full">
+                <div>
+                  <p
+                    class="mobile:text-[20px] watch:text-[16px] mobile:text-[#525252] watch:text-[#E0E0E0] leading-8 font-sans text-center"
+                  >
+                    خوش آمدید
+                  </p>
+                </div>
+                <div>
+                  <div class="w-full h-10.5 mobile:pt-8 watch:pt-2">
+                    <input
+                      class="h-10.5 flex flex-row items-center pr-2.5 placeholder:text-[#A3A3A3] outline-none border border-[#E0E0E0] w-full"
+                      placeholder="شماره همراه"
+                      type="number"
+                      name=""
+                      id=""
+                    />
+                  </div>
+                  <div class="w-full h-10.5 mobile:pt-12 watch:pt-4">
+                    <input
+                      class="h-10.5 flex flex-row items-center pr-2.5 placeholder:text-[#A3A3A3] outline-none border border-[#E0E0E0] w-full"
+                      placeholder="کلمه عبور"
+                      type="password"
+                      name=""
+                      id=""
+                    />
+                  </div>
+                  <div class="mobile:pt-14 pb-6 watch:pt-6">
+                    <a
+                      href="#"
+                      class="block text-[#B8B8B8] text-[14px] font-sans leading-6.5 underline mobile:text-start watch:text-center"
+                      >کلمه عبور خود را فراموش کرده‌اید؟</a
+                    >
+                  </div>
+                  <div class="w-full h-10">
+                    <input
+                      class="h-11.5 flex justify-center items-center bg-[#3D3D3D] text-[#F5F5F5] outline-none border border-[#E0E0E0] w-full"
+                      type="submit"
+                      value="ورود"
+                    />
+                  </div>
+                  <div
+                    class="flex flex-row justify-around items-center mobile:pt-8 watch:pt-3"
+                  >
+                    <span
+                      class="desktop:w-58.75 mobile:w-30 watch:w-10 h-[0.5px] mobile:bg-[#7A7A7A] watch:bg-[#F5F5F5]"
+                    ></span>
+                    <p class="text-[#7A7A7A] text-[12px] font-sans leading-4.5">
+                      ورود از طریق
+                    </p>
+                    <span
+                      class="desktop:w-58.75 mobile:w-30 watch:w-10 h-[0.5px] mobile:bg-[#7A7A7A] watch:bg-[#F5F5F5]"
+                    ></span>
+                  </div>
+                  <div
+                    class="flex desktop:flex-row watch:flex-col justify-center items-center desktop:gap-y-0 gap-x-3 desktop:pt-8 watch:pt-3 watch:gap-y-2"
+                  >
+                    <div
+                      class="flex flex-row justify-center items-center gap-x-2 desktop:w-67.5 watch:w-full h-10 border border-[#E0E0E0]"
+                    >
+                      <p
+                        class="text-[#7A7A7A] text-[12px] leading-4.5 font-sans"
+                      >
+                        ورود با گوگل
+                      </p>
+                      <img src="./src/img/header/Google.png" alt="" />
+                    </div>
+                    <div
+                      class="flex flex-row justify-center items-center gap-x-2 desktop:w-67.5 watch:w-full h-10 border border-[#E0E0E0]"
+                    >
+                      <p
+                        class="text-[#7A7A7A] text-[12px] leading-4.5 font-sans"
+                      >
+                        ورود با ایمیل
+                      </p>
+                      <img src="./src/img/header/envelope.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div><img src="./src/img/header/shopping-cart.png" alt="" /></div>
+        </div>
+      </div>
+      <!-- #endregion menu-->
+      <!-- #region product-->
+      <div
+        class="max-w-450 mx-auto h-auto mobile:px-4 desktop:px-15 watch:px-1 flex desktop:flex-row flex-col desktop:justify-start desktop:items-start mobile:justify-center mobile:items-center gap-6 pt-8 desktop:py-15"
+      >
+        <div
+          class="w-full flex watch:flex-wrap desktop:flex-col flex-row mobile:justify-center desktop:w-22 desktop:h-134 gap-0.5 mobile:gap-3 desktop:gap-6 watch:gap-3 watch:justify-center"
+        >
+          <div
+            class="w-10 h-10 mobile:w-14 mobile:h-14 desktop:w-22 desktop:h-22"
+          >
+            <img
+              class="w-full h-full"
+              src="./src/img/product/pic01.png"
+              alt=""
+            />
+          </div>
+          <div
+            class="w-10 h-10 mobile:w-14 mobile:h-14 desktop:w-22 desktop:h-22"
+          >
+            <img
+              class="w-full h-full"
+              src="./src/img/product/pic02.png"
+              alt=""
+            />
+          </div>
+          <div
+            class="w-10 h-10 mobile:w-14 mobile:h-14 desktop:w-22 desktop:h-22"
+          >
+            <img
+              class="w-full h-full"
+              src="./src/img/product/pic03.png"
+              alt=""
+            />
+          </div>
+          <div
+            class="w-10 h-10 mobile:w-14 mobile:h-14 desktop:w-22 desktop:h-22"
+          >
+            <img
+              class="w-full h-full"
+              src="./src/img/product/pic04.png"
+              alt=""
+            />
+          </div>
+          <div
+            class="w-10 h-10 mobile:w-14 mobile:h-14 desktop:w-22 desktop:h-22"
+          >
+            <img
+              class="w-full h-full"
+              src="./src/img/product/pic05.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="desktop:w-106 desktop:h-162 h-auto mobile:w-80">
+          <img src="./src/img/product/big-pic.png" alt="" />
+        </div>
+        <div
+          class="desktop:w-162 desktop:h-162 mobile:h-175 flex flex-col mobile:w-full desktop:items-start mobile:items-center desktop:justify-start"
+        >
+          <div
+            class="flex flex-col desktop:justify-start desktop:items-start mobile:justify-center mobile:items-center desktop:mb-0 mobile:mb-4"
+          >
+            <div
+              class="flex flex-col mobile:w-63.5 mobile:h-34.5 mobile:h-30 mobile:gap-3.5 desktop:justify-start desktop:items-start mobile:justify-start mobile:items-center"
+            >
+              <h1
+                class="block font-sans mobile:text-[30px] watch:text-[20px] font-bold mobile:mr-0 desktop:text-start watch:text-center"
+              >
+                کت بلند پشمی
+              </h1>
+              <div
+                class="flex flex-wrap mobile:w-63.5 desktop:justify-start gap-8 mobile:flex-row mobile:justify-between items-center watch:flex-col relative"
+              >
+                <h2 class="font-sans-num text-[#D71F1F] font-bold text-[16px]">
+                  3,800,000 تومان
+                </h2>
+                <p
+                  class="font-sans-num text-[#8F8F8F] font-bold text-[10px] line-through mobile:static watch:absolute watch:top-8 watch:right-10.5"
+                >
+                  4.200.000 تومان
+                </p>
+              </div>
+              <div
+                class="flex flex-row gap-1.5 mobile:m-0 watch:mt-9 mobile:justify-center watch:justify-center"
+              >
+                <img src="./src/img/product/carbon_star-half.png" alt="" />
+                <img src="./src/img/product/dashicons_star-filled.png" alt="" />
+                <img src="./src/img/product/dashicons_star-filled.png" alt="" />
+                <img src="./src/img/product/dashicons_star-filled.png" alt="" />
+                <img src="./src/img/product/dashicons_star-filled.png" alt="" />
+              </div>
+            </div>
+            <div
+              class="desktop:w-112 mobile:h-35 watch:h-85 mobile:w-90 desktop:px-0 mobile:px-5 watch:px-3 mobile:mt-0 watch:mt-3"
+            >
+              <p
+                class="mobile:text-[16px] watch:text-[12px] leading-7.5 font-sans text-[#666666] desktop:text-start"
+              >
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد
+                نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+              </p>
+            </div>
+          </div>
+          <span
+            class="desktop:w-112 mobile:w-90 watch:w-36 h-[1px] bg-[#B8B8B8] desktop:my-6 mobile:mt-11 mobile:mb-0 mobile:mr-0 watch:mb-5 watch:mr-1"
+          ></span>
+          <div
+            class="flex flex-col desktop:items-start mobile:items-center desktop:w-112 mobile:w-90"
+          >
+            <div
+              class="flex mobile:flex-row watch:flex-col watch:gap-3 desktop:w-100 w-full desktop:justify-between mobile:justify-around watch:items-center desktop:pt-0 mobile:pt-6"
+            >
+              <p
+                class="font-bold font-sans text-[#3D3D3D] mobile:text-[14px] leading-5.5"
+              >
+                انتخاب سایز
+              </p>
+              <a
+                href="#"
+                class="text-[10px] text-[#7A7A7A] font-sans leading-4.5 underline"
+                >راهنمای انتخاب سایز</a
+              >
+            </div>
+            <div
+              class="flex flex-row watch:flex-wrap watch:justify-center mobile:gap-1 watch:gap-3 py-3"
+            >
+              <label class="cursor-pointer">
+                <input type="radio" name="size" class="peer sizebox" />
+                <p
+                  class="flex items-center justify-center w-6 h-6 px-4 py-2 bg-white border-[0.5px] border-[#CCCCCC] text-sm text-[#A3A3A3] peer-checked:bg-stone-900 peer-checked:text-white peer-checked:border-stone-900"
+                >
+                  Xs
+                </p>
+              </label>
+              <label class="cursor-pointer">
+                <input type="radio" name="size" class="peer sizebox" />
+                <p
+                  class="flex items-center justify-center w-6 h-6 px-4 py-2 bg-white border-[0.5px] border-[#CCCCCC] text-sm text-[#3D3D3D] peer-checked:bg-stone-900 peer-checked:text-white peer-checked:border-stone-900"
+                >
+                  S
+                </p>
+              </label>
+              <label class="cursor-pointer">
+                <input type="radio" name="size" class="peer sizebox" />
+                <p
+                  class="flex items-center justify-center w-6 h-6 px-4 py-2 bg-white border-[0.5px] border-[#CCCCCC] text-sm text-[#3D3D3D] peer-checked:bg-stone-900 peer-checked:text-white peer-checked:border-stone-900"
+                >
+                  M
+                </p> </label
+              ><label class="cursor-pointer">
+                <input type="radio" name="size" class="peer sizebox" />
+                <p
+                  class="flex items-center justify-center w-6 h-6 px-4 py-2 bg-white border-[0.5px] border-[#CCCCCC] text-sm text-[#3D3D3D] peer-checked:bg-stone-900 peer-checked:text-white peer-checked:border-stone-900"
+                >
+                  L
+                </p>
+              </label>
+              <label class="cursor-pointer">
+                <input type="radio" name="size" class="peer sizebox" />
+                <p
+                  class="flex items-center justify-center w-6 h-6 px-4 py-2 bg-white border-[0.5px] border-[#CCCCCC] text-sm text-[#A3A3A3] peer-checked:bg-stone-900 peer-checked:text-white peer-checked:border-stone-900"
+                >
+                  Xl
+                </p>
+              </label>
+            </div>
+            <div
+              class="flex flex-col mobile:justify-center watch:items-center mobile:mb-0 watch:mb-5"
+            >
+              <p class="font-sans text-[#3D3D3D] text-[12px] leading-4.5 py-6">
+                رنگ های موجود
+              </p>
+              <div
+                class="flex flex-row desktop:justify-start mobile:justify-center gap-2"
+              >
+                <label
+                  class="w-6 h-6 rounded-full bg-[#000000] ring-2 ring-offset-2 ring-transparent hover:ring-stone-300 cursor-pointer block"
+                ></label>
+                <label
+                  class="w-6 h-6 rounded-full bg-[#A48E43] ring-2 ring-offset-2 ring-transparent hover:ring-stone-300 cursor-pointer block"
+                ></label>
+              </div>
+            </div>
+          </div>
+          <span
+            class="desktop:w-112 mobile:w-90 watch:w-36 h-[1px] bg-[#B8B8B8] desktop:my-6 mobile:my-6.5 mobile:mr-0 watch:mb-5 watch:mr-1"
+          ></span>
+          <div>
+            <div
+              class="flex desktop:flex-row flex-col items-center gap-3 desktop:w-112 mobile:w-full"
+            >
+              <button
+                class="mobile:w-79.5 h-14 watch:w-30 border border-[#3D3D3D] text-[14px] leading-5.5 font-bold text-[#3D3D3D] bg-transparent hover:bg-stone-900 hover:text-white transition-colors"
+              >
+                افزودن به سبد خرید
+              </button>
+
+              <div
+                class="w-28 mobile:h-14 watch:w-30 flex items-center justify-center gap-5 border border-[#3D3D3D]"
+              >
+                <div class="w-full h-full items-center flex flx">
+                  <input
+                    class="h-full flex flex-row items-center pr-2.5 px-0 placeholder:text-[#A3A3A3] outline-none border text-center border-[#E0E0E0] w-full"
+                    placeholder="تعداد"
+                    type="number"
+                    name=""
+                    id=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- #endregion product-->
+      <!--#region based on your preference-->
+      <div
+        class="w-full desktop:py-15 desktop:px-15 mobile:py-10 mobile:px-5 watch:py-2 watch:px-2.5 mx-auto"
+      >
+        <div  class="max-w-450 mx-auto">
+          <h1
+            class="font-sans mobile:text-[28px] watch:text-[16px] font-bold mb-10 mobile:text-start watch:text-center mobile:pt-0 watch:pt-12"
+          >
+            بر اساس سلیقه شما
+          </h1>
+          <div>
+            <div
+              class="flex desktop:flex-row desktop:justify-between flex-col items-center mobile:pb-0 watch:pb-15"
+            >
+              <div>
+                <div
+                  class="mobile:w-72 mobile:h-141 watch:w-full watch:h-full flex flex-col flex-wrap mobile:gap-y-4 watch:gap-y-2 mobile:pt-0 watch:pt-0"
+                >
+                  <div><img src="/src/img/content/picture.png" alt="" /></div>
+                  <div>
+                    <h1
+                      class="block font-sans text-[20px] font-bold mobile:mr-0 watch:mr-2 mobile:text-start watch:text-center"
+                    >
+                      کاپشن بدون کلاه
+                    </h1>
+                    <div
+                      class="flex flex-wrap mobile:flex-row mobile:justify-between items-center watch:flex-col watch:items-center"
+                    >
+                      <h2
+                        class="font-sans-num text-[#D71F1F] font-bold text-[20px]"
+                      >
+                        2.850.000 تومان
+                      </h2>
+                      <p
+                        class="font-sans-num text-[#8F8F8F] font-bold text-[15px] line-through mobile:static watch:mt-1"
+                      >
+                        3.300.000 تومان
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="mobile:w-72 mobile:h-141 watch:w-full watch:h-full flex flex-col flex-wrap mobile:gap-y-4 watch:gap-y-2 mobile:pt-0 watch:pt-8"
+                >
+                  <div><img src="/src/img/content/picture-1.png" alt="" /></div>
+                  <div>
+                    <h1
+                      class="block font-sans text-[20px] font-bold mobile:mr-0 watch:mr-2 mobile:text-start watch:text-center"
+                    >
+                      کت بلند پاییزی
+                    </h1>
+                    <div
+                      class="flex flex-wrap mobile:flex-row mobile:justify-between items-center watch:flex-col watch:items-center"
+                    >
+                      <h2
+                        class="font-sans-num text-[#D71F1F] font-bold text-[20px]"
+                      >
+                        4.500.000 تومان
+                      </h2>
+                      <p
+                        class="font-sans-num text-[#8F8F8F] font-bold text-[15px] line-through mobile:static watch:mt-1"
+                      >
+                        4.8500.000 تومان
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="mobile:w-72 mobile:h-141 watch:w-full watch:h-full flex flex-col flex-wrap mobile:gap-y-4 watch:gap-y-2 mobile:pt-0 watch:pt-8"
+                >
+                  <div><img src="/src/img/content/picture-2.png" alt="" /></div>
+                  <div>
+                    <h1
+                      class="block font-sans text-[20px] font-bold mobile:mr-0 watch:mr-2 mobile:text-start watch:text-center"
+                    >
+                      پافر بلند زمستانی
+                    </h1>
+                    <div
+                      class="flex flex-wrap mobile:flex-row mobile:justify-between items-center watch:flex-col watch:items-center"
+                    >
+                      <h2
+                        class="font-sans-num text-[#D71F1F] font-bold text-[20px]"
+                      >
+                        6.700.000 تومان
+                      </h2>
+                      <p
+                        class="font-sans-num text-[#8F8F8F] font-bold text-[15px] line-through mobile:static watch:mt-1"
+                      >
+                        8.100.000 تومان
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div
+                  class="mobile:w-72 mobile:h-141 watch:w-full watch:h-full flex flex-col flex-wrap mobile:gap-y-4 watch:gap-y-2 mobile:pt-0 watch:pt-8"
+                >
+                  <div><img src="/src/img/content/picture-3.png" alt="" /></div>
+                  <div>
+                    <h1
+                      class="block font-sans text-[20px] font-bold mobile:mr-0 watch:mr-2 mobile:text-start watch:text-center"
+                    >
+                      پافر زمستانی
+                    </h1>
+                    <div
+                      class="flex flex-wrap mobile:flex-row mobile:justify-between items-center watch:flex-col watch:items-center"
+                    >
+                      <h2
+                        class="font-sans-num text-[#D71F1F] font-bold text-[20px]"
+                      >
+                        5.450.000 تومان
+                      </h2>
+                      <p
+                        class="font-sans-num text-[#8F8F8F] font-bold text-[15px] line-through mobile:static watch:mt-1"
+                      >
+                        5.900.000 تومان
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- #endregion based on your preference -->
+      <!-- #region opinions-->
+      <div
+        class="max-w-450 mx-auto desktop:h-152 mobile:h-180 watch:w-full watch:h-260 bg-[#E0E0E0] flex flex-row justify-center mb-10"
+      >
+        <div
+          class="mobile:w-80 watch:w-full h-24.5 mt-12 flex flex-col items-center"
+        >
+          <div>
+            <h1 class="text-[28px] font-bold font-sans flex">نظرات</h1>
+          </div>
+          <div
+            class="mobile:w-68.25 watch:w-full h-8 flex mobile:flex-row mobile:justify-between watch:items-center watch:flex-col gap-2 py-7.5"
+          >
+            <p class="text-[16px] font-bold font-sans">۲ دیدگاه</p>
+
+            <div class="flex flex-row gap-1.5 my-1.5">
+              <img
+                class="w-4 h-4"
+                src="./src/img/product/carbon_star-half.png"
+                alt=""
+              />
+              <img
+                class="w-4 h-4"
+                src="./src/img/product/dashicons_star-filled.png"
+                alt=""
+              />
+              <img
+                class="w-4 h-4"
+                src="./src/img/product/dashicons_star-filled.png"
+                alt=""
+              />
+              <img
+                class="w-4 h-4"
+                src="./src/img/product/dashicons_star-filled.png"
+                alt=""
+              />
+              <img
+                class="w-4 h-4"
+                src="./src/img/product/dashicons_star-filled.png"
+                alt=""
+              />
+            </div>
+            <h3 class="text-[#000000] font-bold text-[21px] font-sans">۴.۵</h3>
+          </div>
+          <!--#region opinions-->
+          <div
+            class="desktop:w-330 mobile:w-auto mobile:h-auto flex flex-col mt-6"
+          >
+            <!-- newest -->
+            <div
+              class="flex flex-row items-center desktop:justify-start watch:justify-center watch:pt-20 mobile:pt-0 gap-4 text-[14px] font-bold font-sans text-[#3D3D3D]"
+            >
+              <p>جدیدترین</p>
+
+              <img
+                class="w-3 h-2 -mt-1"
+                src="./src/img/product/sort-down.png"
+                alt=""
+              />
+            </div>
+            <span
+            class="desktop:w-329 mobile:w-full watch:w-40 h-px bg-[#B8B8B8] mobile:mt-5 watch:my-5 mx-auto"
+          ></span>
+
+            <!-- first comment -->
+            <div
+              class="flex desktop:flex-col mobile:flex-col watch:flex-col desktop:w-full mobile:w-full gap-1.5 desktop:mt-10 mobile:mt-0 mobile:p-0 watch:p-4 "
+            >
+              <div
+                class="flex items-center mobile:flex-row watch:flex-col justify-between mobile:items-center"
+              >
+                <div class="flex items-center gap-2">
+                  <p
+                    class="font-bold font-sans mobile:text-[16px] watch:text-[12px] text-[#3D3D3D] desktop:text-start"
+                  >
+                    آیسان فرهادی
+                  </p>
+                  <p class="font-sans text-[14px] text-[#666666]">(خریدار)</p>
+                </div>
+                <time
+                  datetime="2023-12-03"
+                  class="text-[#525252] text-[12px] font-sans-num"
+                  >۱۴۰۲/۹/۱۲</time
+                >
+              </div>
+
+              <div
+                class="flex gap-1 desktop:justify-start mobile:justify-center watch:justify-center"
+              >
+                <img
+                  class="w-4 h-4"
+                  src="./src/img/product/dashicons_star-filled.png"
+                  alt=""
+                />
+                <img
+                  class="w-4 h-4"
+                  src="./src/img/product/dashicons_star-filled.png"
+                  alt=""
+                />
+                <img
+                  class="w-4 h-4"
+                  src="./src/img/product/dashicons_star-filled.png"
+                  alt=""
+                />
+                <img
+                  class="w-4 h-4"
+                  src="./src/img/product/dashicons_star-filled.png"
+                  alt=""
+                />
+                <img
+                  class="w-4 h-4"
+                  src="./src/img/product/dashicons_star-filled.png"
+                  alt=""
+                />
+              </div>
+
+              <p
+                class="text-[#525252] font-sans mobile:text-[14px] watch:text-[12px] desktop:w-full mobile:w-full text-start   "
+              >
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله
+                در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
+                نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+              </p>
+            </div>
+            <span
+            class="desktop:w-329 mobile:w-full watch:w-40 h-px bg-[#B8B8B8] mobile:mt-5 watch:my-5 mx-auto"
+          ></span>
+            <!-- second comment -->
+            <div
+              class="flex desktop:flex-col mobile:flex-col watch:flex-col desktop:w-full mobile:w-full gap-1.5 desktop:mt-10 mobile:mt-0 mobile:p-0 watch:p-4 "
+            >
+              <div
+                class="flex items-center mobile:flex-row watch:flex-col justify-between mobile:items-center"
+              >
+                <div class="flex items-center gap-2">
+                  <p
+                    class="font-bold font-sans mobile:text-[16px] watch:text-[12px] text-[#3D3D3D] desktop:text-start"
+                  >
+                   ملینا احمدی
+                  </p>
+                  <p class="font-sans text-[14px] text-[#666666]">(خریدار)</p>
+                </div>
+                <time
+                  datetime="2023-12-03"
+                  class="text-[#525252] text-[12px] font-sans-num"
+                  >۱۴۰۲/۹/۱۲</time
+                >
+              </div>
+
+              <div
+                class="flex gap-1 desktop:justify-start mobile:justify-center watch:justify-center"
+              >
+                <img
+                  class="w-4 h-4"
+                  src="./src/img/product/dashicons_star-filled1.png"
+                  alt=""
+                />
+                <img
+                  class="w-4 h-4"
+                  src="./src/img/product/dashicons_star-filled.png"
+                  alt=""
+                />
+                <img
+                  class="w-4 h-4"
+                  src="./src/img/product/dashicons_star-filled.png"
+                  alt=""
+                />
+                <img
+                  class="w-4 h-4"
+                  src="./src/img/product/dashicons_star-filled.png"
+                  alt=""
+                />
+                <img
+                  class="w-4 h-4"
+                  src="./src/img/product/dashicons_star-filled.png"
+                  alt=""
+                />
+              </div>
+
+              <p
+                class="text-[#525252] font-sans mobile:text-[14px] watch:text-[12px] desktop:w-full mobile:w-full text-start   "
+              >
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله
+                در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
+                نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+              </p>
+            </div>
+            <span
+              class="desktop:w-329 mobile:w-full watch:w-40 h-px bg-[#B8B8B8] mobile:mt-5 watch:my-5 mx-auto"
+            ></span>
+          </div>
+        </div>
+      </div>
+      <!-- #endregion opinions-->
+      <!-- #region footer-->
+      <div class="max-w-450 mx-auto">
+        <div
+        class="w-full desktop:h-91.5 mobile:h-auto bg-[#3D3D3D] flex desktop:flex-row justify-center desktop:py-20 desktop:px-19 flex-col"
+      >
+        <div
+          class="w-full flex desktop:flex-row desktop:justify-between desktop:items-stretch flex-col items-center mobile:relative"
+        >
+          <!-- footer first -->
+          <div
+            class="mobile:w-90 h-auto flex flex-col justify-between desktop:gap-0 mobile:gap-y-10"
+          >
+            <div class="w-full h-8">
+              <h1
+                class="font-sans text-[#F5F5F5] mobile:text-[20px] desktop:pt-0 mobile:pt-2 watch:pt-2 watch:text-[9px] mobile:text-start watch:text-center"
+              >
+                اولین کسی باش که از تخفیف‌ها باخبر میشه
+              </h1>
+            </div>
+            <div class="w-full h-10.5">
+              <input
+                class="h-10.5 flex flex-row items-center pr-2.5 placeholder:text-[#E0E0E0] outline-none border bg-[#7A7A7A] border-[#E0E0E0] w-full"
+                placeholder="ایمیل"
+                type="text"
+                name=""
+                id=""
+              />
+            </div>
+            <div class="w-full h-10.5">
+              <input
+                class="h-10.5 flex flex-row items-center pr-2.5 placeholder:text-[#E0E0E0] outline-none border bg-[#7A7A7A] border-[#E0E0E0] w-full"
+                placeholder="نام شما"
+                type="email"
+                name=""
+                id=""
+              />
+            </div>
+            <div class="w-full h-10">
+              <input
+                class="h-10 flex justify-center items-center text-[#E0E0E0] outline-none border border-[#E0E0E0] w-full"
+                type="submit"
+                value="اشتراک"
+              />
+            </div>
+          </div>
+          <!-- footer first -->
+          <!-- footer second -->
+          <div
+            class="desktop:w-160.5 flex mobile:flex-row flex-wrap justify-around desktop:mt-0 mobile:my-15"
+          >
+            <div class="flex flex-col desktop:w-fit mobile:w-1/3">
+              <div class="h-1/4">
+                <p
+                  class="mobile:w-fit mobile:text-[20px] watch:text-[18px] text-[#F5F5F5] font-sans font-bold leading-8 watch:w-full"
+                >
+                  درباره لیلیان
+                </p>
+              </div>
+              <div class="flex flex-col h-3/4 justify-around">
+                <p
+                  class="mobile::w-fit text-[14px] text-[#CCCCCC] font-sans leading-5.5 mobile:text-start watch:w-full watch:text-center"
+                >
+                  اتاق خبر لیلیان
+                </p>
+                <p
+                  class="mobile::w-fit text-[14px] text-[#CCCCCC] font-sans leading-5.5 mobile:text-start watch:w-full watch:text-center"
+                >
+                  همکاری با ما
+                </p>
+                <p
+                  class="mobile::w-fit text-[14px] text-[#CCCCCC] font-sans leading-5.5 mobile:text-start watch:w-full watch:text-center"
+                >
+                  تماس با ما
+                </p>
+                <p
+                  class="mobile::w-fit text-[14px] text-[#CCCCCC] font-sans leading-5.5 mobile:text-start watch:w-full watch:text-center"
+                >
+                  درباره ما
+                </p>
+              </div>
+            </div>
+            <div>
+              <div class="h-1/4">
+                <p
+                  class="mobile:w-fit mobile:text-[20px] watch:text-[18px] text-[#F5F5F5] font-sans font-bold leading-8 watch:w-full watch:text-center"
+                >
+                  خدمات مشتریان
+                </p>
+              </div>
+              <div class="flex flex-col h-3/4 justify-around">
+                <p
+                  class="mobile::w-fit text-[14px] text-[#CCCCCC] font-sans leading-5.5 mobile:text-start watch:w-full watch:text-center"
+                >
+                  پاسخ به سوالات متداول
+                </p>
+                <p
+                  class="mobile::w-fit text-[14px] text-[#CCCCCC] font-sans leading-5.5 mobile:text-start watch:w-full watch:text-center"
+                >
+                  شرایط استفاده
+                </p>
+                <p
+                  class="mobile::w-fit text-[14px] text-[#CCCCCC] font-sans leading-5.5 mobile:text-start watch:w-full watch:text-center"
+                >
+                  حریم خصوصی
+                </p>
+                <p
+                  class="mobile::w-fit text-[14px] text-[#CCCCCC] font-sans leading-5.5 mobile:text-start watch:w-full watch:text-center"
+                >
+                  گزارش باگ
+                </p>
+              </div>
+            </div>
+            <div class="flex flex-col desktop:w-fit mobile:w-full mobile:pr-8">
+              <div class="h-1/4">
+                <p
+                  class="mobile:w-fit mobile:text-[20px] watch:text-[18px] text-[#F5F5F5] font-sans font-bold leading-8 watch:w-full"
+                >
+                  راهنمای خرید از لیلیان
+                </p>
+              </div>
+              <div class="flex flex-col h-3/4 justify-around">
+                <p
+                  class="mobile::w-fit text-[14px] text-[#CCCCCC] font-sans leading-5.5 mobile:text-start watch:w-full watch:text-center"
+                >
+                  خرید قسطی
+                </p>
+                <p
+                  class="mobile::w-fit text-[14px] text-[#CCCCCC] font-sans leading-5.5 mobile:text-start watch:w-full watch:text-center"
+                >
+                  نحوه ثبت سفارش
+                </p>
+                <p
+                  class="mobile::w-fit text-[14px] text-[#CCCCCC] font-sans leading-5.5 mobile:text-start watch:w-full watch:text-center"
+                >
+                  رویه ارسال سفارش
+                </p>
+                <p
+                  class="mobile::w-fit text-[14px] text-[#CCCCCC] font-sans leading-5.5 mobile:text-start watch:w-full watch:text-center"
+                >
+                  شیوه‌های پرداخت
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- footer second -->
+          <!-- footer thrid -->
+          <div
+            class="w-30 h-22.25 flex flex-col justify-around items-center desktop:static mobile:absolute mobile:bottom-20 mobile:left-11"
+          >
+            <div class="w-fit">
+              <img src="./src/img/footer/Logo.png" alt="" />
+            </div>
+            <div class="w-full flex flex-row justify-around items-center">
+              <img src="./src/img/footer/pinterest p.png" alt="" />
+              <img src="./src/img/footer/Linkedin In.png" alt="" />
+              <img src="./src/img/footer/twitter.png" alt="" />
+              <img src="./src/img/footer/Instagram.png" alt="" />
+            </div>
+          </div>
+          <!-- footer thrid -->
+        </div>
+      </div>
+      </div>
+      <!-- #endregion footrt-->
+    </div>
+    <!-- #endregion wrapper-->
+  </body>
+</html>
