@@ -1228,6 +1228,9 @@
     .desktop\:mb-20 {
       margin-bottom: calc(var(--spacing) * 20);
     }
+    .desktop\:flex {
+      display: flex;
+    }
     .desktop\:h-10 {
       height: calc(var(--spacing) * 10);
     }
