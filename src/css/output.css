@@ -6,6 +6,7 @@
     --font-sans: sans;
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-amber-900: oklch(41.4% 0.112 45.904);
     --color-stone-300: oklch(86.9% 0.005 56.366);
     --color-stone-900: oklch(21.6% 0.006 56.043);
     --color-white: #fff;
@@ -313,6 +314,9 @@
   .h-24\.5 {
     height: calc(var(--spacing) * 24.5);
   }
+  .h-69 {
+    height: calc(var(--spacing) * 69);
+  }
   .h-80 {
     height: calc(var(--spacing) * 80);
   }
@@ -435,6 +439,12 @@
   }
   .gap-8 {
     gap: calc(var(--spacing) * 8);
+  }
+  .gap-28 {
+    gap: calc(var(--spacing) * 28);
+  }
+  .gap-44 {
+    gap: calc(var(--spacing) * 44);
   }
   .gap-x-2 {
     column-gap: calc(var(--spacing) * 2);
@@ -1320,9 +1330,6 @@
     }
     .desktop\:gap-6 {
       gap: calc(var(--spacing) * 6);
-    }
-    .desktop\:gap-28 {
-      gap: calc(var(--spacing) * 28);
     }
     .desktop\:gap-44 {
       gap: calc(var(--spacing) * 44);
